@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TextForge.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenBackground">#121212</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/icon</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#121212</item>
+    </style>
+
+    <style name="Theme.MultiViewApp" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

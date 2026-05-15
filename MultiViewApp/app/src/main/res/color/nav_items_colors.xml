@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color when item is selected/active -->
+    <item android:state_checked="true" android:color="#00F0FF" /> <!-- Neon Cyan example -->
+    <!-- Color when item is idle -->
+    <item android:state_checked="false" android:color="#94A3B8" /> <!-- Muted Slate Gray -->
+</selector>

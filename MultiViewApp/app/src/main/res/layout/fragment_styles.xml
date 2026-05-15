@@ -1,0 +1,199 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#2A152E">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="16dp"
+            android:text="Text Styles Library"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <!-- VAPORWAVE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="🤵𝒞𝓁𝒶𝓈𝓈𝓎"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="66dp"
+                android:textSize="20sp"
+                android:text="Text aesthetic suited for a gentlemen.\nExample: Classy →  𝒞𝓁𝒶𝓈𝓈𝓎" />
+        </LinearLayout>
+
+        <!-- REVERSE -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:text="🔁 Reverse"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="67dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:text="Reverses the text.\nExample: hello → olleh" />
+        </LinearLayout>
+
+        <!-- MORSE CODE -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="📻 Morse"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Replaces words with emojis.\nExample: HELLO → .... . .-.. .-.. ---" />
+        </LinearLayout>
+
+        <!-- GLITCH -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:text="🤖 Cyber_Punk"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:text="Corrupts the text.\nExample: Hello → H̶̲e̲̳l̷̳l̶̳o̳̲"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- BINARY -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:text="💾 Binary Code"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:text="Computer Language.\nExample: Hi → 01101000 01101001 "
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Mirror -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:text="🪞Mirror Text"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:text="Upside down text\nExample: Hello → ollɘʜ"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Mirror -->
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:text="Strikethrough Text"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:text="Crossed out text\nExample: Hello → H̶e̶l̶l̶o̶"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
